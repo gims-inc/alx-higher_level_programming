@@ -1,5 +1,4 @@
 #!/usr/bin/pytho3
-# square.py
 """Defines a square class."""
 from models.rectangle import Rectangle
 
