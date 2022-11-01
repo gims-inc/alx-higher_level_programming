@@ -1,2 +1,2 @@
 -- Display average  tempratures  by city ordered by temprature descending
-select city, avg(value) as avg_temp from temperatures group by city order by avg_temp desc;
+SELECT city, AVG(value) AS avg_temp FROM temperatures GROUP BY city ORDER BY avg_temp DESC;
